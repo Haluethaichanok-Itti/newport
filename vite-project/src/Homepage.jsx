@@ -23,7 +23,7 @@ const HomePage = () => {
               </p>
             </div>
             <div className="aboutMeRight">
-              <img src="../public/341333842_248751314311561_2891745540448461571_n.jpeg" />
+              <img src="./341333842_248751314311561_2891745540448461571_n.jpeg" />
             </div>
           </div>
         </section>
@@ -34,7 +34,7 @@ const HomePage = () => {
             <div className="boxProjecy">
               <div className="scroll">
                 <div className="photoProject">
-                  <img src="../public/colmar-mii6-vercel-app-.jpg" />
+                  <img src="./colmar-mii6-vercel-app-.jpg" />
                 </div>
               </div>
               <div className="detailProject">
@@ -60,7 +60,7 @@ const HomePage = () => {
             <div className="boxProjecy">
               <div className="noscroll">
                 <div className="photoProjectNo">
-                  <img src="../public/img-find-you-hat.png" />
+                  <img src="./img-find-you-hat.png" />
                 </div>
               </div>
               <div className="detailProject">
@@ -90,7 +90,7 @@ const HomePage = () => {
             <span className="education">Education</span>
             <article className="generation">
               <div className="logo">
-                <img src="../public/232580133_101264878925478_7242207030737576724_n.png" />
+                <img src="./232580133_101264878925478_7242207030737576724_n.png" />
               </div>
               <div className="information">
                 <h3 className="position">Fullstack Web Developer Learner</h3>
@@ -111,7 +111,7 @@ const HomePage = () => {
 
             <article className="generation">
               <div className="logo">
-                <img src="../public/chula-logo_square_75pc.png" />
+                <img src="./chula-logo_square_75pc.png" />
               </div>
               <div className="information">
                 <h3 className="position">
@@ -131,7 +131,7 @@ const HomePage = () => {
             <span className="head">Internship</span>
             <article className="generation">
               <div className="logo">
-                <img src="../public/dairy-home-logo.png" />
+                <img src="./dairy-home-logo.png" />
               </div>
               <div className="information">
                 <h3 className="position">Internship</h3>
