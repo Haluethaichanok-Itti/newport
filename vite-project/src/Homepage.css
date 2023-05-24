@@ -184,10 +184,34 @@ margin-bottom: 0;
     font-family: 'Oranienbaum', serif;
     font-size: 2.5rem;
 }
-footer{
+.footerpro{
+    /* position: absolute; */
+    float: right; 
+    box-sizing: border-box;
     width: 100%;
-    padding: 2%;
-    color:white;
+    /* padding: 2%; */
+    right: 0px;
+    left: 0px;
+    margin-right: 0px; float: right;
+    box-sizing: border-box;
+    width: 120%;
+    /* padding: 2%; */
+    height: 90px;
+    right: 0px;
+    left: 0px;
+    margin-right: 0px;
+  float: left;
+    display: flex; 
     background-color:rgb(143,183,209);
- 
+/* max-width: 120%; */
+justify-content: end;
+  float: left;
+    display: flex; 
+   
+max-width: 120%;
+justify-content: end;
+}
+.footers{
+    
+    width: 100%;
 }

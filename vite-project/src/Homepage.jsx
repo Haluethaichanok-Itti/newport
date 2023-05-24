@@ -183,8 +183,14 @@ const HomePage = () => {
             </a>
           </div>
         </section>
+        {/* <div className="footer"> */}
+        {/* <footer></footer> */}
+        {/* </div> */}
       </main>
-      <footer></footer>
+      <div className="footers">
+        {" "}
+        <footer className="footerpro"></footer>
+      </div>
     </>
   );
 };
