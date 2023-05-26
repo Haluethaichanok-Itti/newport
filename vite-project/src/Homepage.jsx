@@ -11,7 +11,7 @@ const HomePage = () => {
         <section id="profile">
           <div className="aboutMe">
             <div className="aboutMeLeft">
-              <span>HELLO MY NAME IS</span>
+              <span className="hello">HELLO MY NAME IS...</span>
               <br />
               <span className="myName">Haluethaichanok Junlongsawaitkul</span>
               <br />
@@ -34,6 +34,42 @@ const HomePage = () => {
             <div className="boxProjecy">
               <div className="scroll">
                 <div className="photoProject">
+                  <img src="./orangecat-vercel-app- (2).jpg" />
+                </div>
+              </div>
+              <div className="detailProject">
+                <h3>
+                  <b>OrangeCat Exercise Tracker Web Application</b>
+                </h3>
+                <p>
+                  Responsive web application page for OrangeCat exercise tracker
+                  as a group project. The Target group is 7 to 25 years. Using
+                  React for frontend and node.js, express, mongoose, MongoDB
+                  Atlas, and Cloudinary for the backend.
+                </p>
+                <div className="allBut">
+                  <a href="https://orangecat.vercel.app/" target="_blank">
+                    <button className="btn">DEMO</button>
+                  </a>
+                  <a
+                    href="https://github.com/lethal1147/frontend-jsd4-groupE"
+                    target="_blank"
+                  >
+                    <button className="btn"> FRONTEND</button>
+                  </a>
+                  <a
+                    href="https://github.com/lethal1147/backend-jsd4-groupE.git"
+                    target="_blank"
+                  >
+                    <button className="btn"> BACKEND</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="boxProjecy">
+              <div className="scroll">
+                <div className="photoProject">
                   <img src="./colmar-mii6-vercel-app-.jpg" />
                 </div>
               </div>
@@ -42,7 +78,8 @@ const HomePage = () => {
                   <b>Colmar Academy</b>
                 </h3>
                 <p>
-                  Responsive landing page for Colmar Academy. Using HTML and CSS{" "}
+                  Responsive landing page for Colmar Academy. Using HTML and
+                  CSS.{" "}
                 </p>
                 <div className="allBut">
                   <a href="https://colmar-mii6.vercel.app/" target="_blank">
@@ -57,6 +94,7 @@ const HomePage = () => {
                 </div>
               </div>
             </div>
+
             <div className="boxProjecy">
               <div className="noscroll">
                 <div className="photoProjectNo">

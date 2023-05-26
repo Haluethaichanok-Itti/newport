@@ -15,20 +15,30 @@ main{
 font-size: 150%;
 
 }
-button{
-    font-family: 'Oranienbaum', serif;
-    font-size: 120%;
-    color: rgb(8,40,78);
-}
+
 
 /* about me */
 #profile{
     width: 100%;
     padding: 10%;
-    background-image: url(../public/skybg.png);
+    background-image: url(../public/349317394_3596871923965512_7104716677898565503_n.jpeg);
     background-size: cover;
     right:0;
+    background-repeat: repeat;
     color:white;
+    background-position: 100px 5px;
+    animation: clouds_anim 75s linear infinite;
+}
+@keyframes clouds_anim {
+    0%{
+        background-position: 0 0;
+       
+    }
+    100%{
+        background-position: -2020px 0;
+        
+    }
+   
 }
 .aboutMe{
     display: flex;
@@ -81,6 +91,14 @@ button{
 .btn{
     border-radius: 10px;
     width: 100%;
+    font-family: 'Oranienbaum', serif;
+    font-size: 120%;
+    color: rgb(8,40,78);
+    background-color: rgb(249,250,246);
+}
+.btn:hover{
+    box-shadow: 8px 8px rgb(8,40,78) ;
+    transition: .3s;
 }
 @keyframes slide{
     0%{
