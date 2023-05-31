@@ -1,2 +1,2 @@
 # newport
-https://haluethaichanok-j-porfolio.vercel.app/
+https://haluethaichanok-j-praew.vercel.app/
