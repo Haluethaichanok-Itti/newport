@@ -29,7 +29,7 @@ font-size: 150%;
     background-repeat: repeat-x;
     color:white;
     background-position: 100px 5px;
-    animation: clouds_anim 75s linear infinite;
+    animation: clouds_anim 100s linear infinite;
     animation-timing-function: linear;
 }
 @keyframes clouds_anim {

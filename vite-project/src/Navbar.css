@@ -16,7 +16,7 @@
     background-color:rgb(143,183,209);
  position: fixed;
  z-index: 1;
-    height: 4%;
+    height: 8%;
 }
 .menu{
     display: flex;
@@ -63,6 +63,7 @@
     width: 100%;
     display: flex;
    justify-content: center;
+   height: 6%;
   }
   .rightSide{
     text-align: center;
@@ -74,6 +75,7 @@
         width: 100%;
         display: flex;
        justify-content: center;
+      
        overflow: hidden;
        position: fixed;
 top:0;
@@ -92,8 +94,9 @@ box-sizing: border-box;
         width: 100%;
 display: flex;
 align-items: center;
+padding-left: 2rem;
 position: fixed;
-top:0;
+/* top:0; */
 
     }
     .menu{
@@ -113,11 +116,12 @@ top:0;
     
     }
     .toggleBtn{
+      
         border: transparent;
         background-color: transparent;
     background-position: center;
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
     background-color:rgb(143,183,209) ;
         background-image: url('./home_icon.png');
         background-size: cover;
