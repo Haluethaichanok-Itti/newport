@@ -386,7 +386,7 @@ justify-content: end;
         animation-timing-function: linear;
     }   
 } */
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
     :root{
         box-sizing: border-box;
         width: 100%;

@@ -81,7 +81,7 @@
   }
 }
 
-  @media screen and (max-width:400px) {
+  @media screen and (max-width:450px) {
     :root{
       width: 100%;
     }
@@ -89,7 +89,7 @@
         width: 100%;
         display: flex;
        justify-content: center;
-      
+       height: 70px;
        overflow: hidden;
        position: fixed;
 top:0;
