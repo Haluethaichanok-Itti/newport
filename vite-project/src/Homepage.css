@@ -342,6 +342,18 @@ main {
     width: 70%;
   }
 }
+@media screen and (max-width: 1200px) {
+  .allBut {
+    display: flex;
+    font-size: 100%;
+    gap: 3%;
+    width: 50%;
+  }
+  .btn {
+    font-size: 100%;
+    gap: 3%;
+  }
+}
 /* @media screen and (max-width:650px) {
     #profile{
         width: 100%;

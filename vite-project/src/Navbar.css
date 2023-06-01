@@ -1,78 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
-.toggleNav{
-    display: none;
+@import url("https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap");
+.toggleNav {
+  display: none;
 }
-.navbar{
-    font-family: 'Oranienbaum', serif;
-    font-size: 150%;
-    width: 100%;
-    margin-top: 0%;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:rgb(143,183,209);
- position: fixed;
- z-index: 1;
-    height: 8%;
+.navbar {
+  font-family: "Oranienbaum", serif;
+  font-size: 150%;
+  width: 100%;
+  margin-top: 0%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(143, 183, 209);
+  position: fixed;
+  z-index: 1;
+  height: 8%;
 }
-.menu{
-    display: flex;
-   list-style: none;
-   justify-content: space-between;
-   gap: 2rem;
-  
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 2rem;
 }
-.menuItem a{
-    
-    color: white;
-    position: relative;
- text-decoration: none;
-
+.menuItem a {
+  color: white;
+  position: relative;
+  text-decoration: none;
 }
-.menuItem a::before{
-    
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    border-radius: 4px;
-    background-color: white;
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3 ease-in-out ;
-
+.menuItem a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3 ease-in-out;
 }
-.menuItem a:hover:before{
-    transform-origin: left;
-    transform: scaleX(1);
+.menuItem a:hover:before {
+  transform-origin: left;
+  transform: scaleX(1);
 }
-.home{
-    text-decoration: none;
-    color: white;
+.home {
+  text-decoration: none;
+  color: white;
 }
-@media screen and (max-width:990px) {
-  :root{
+/* @media screen and (max-width: 1200px) {
+  .menu {
+    gap: 0px;
+  }
+} */
+@media screen and (max-width: 1200px) {
+  :root {
     width: 100%;
   }
-  .home{
+  .home {
     display: none;
-  } 
-  .navbar{
+  }
+  .navbar {
     width: 100%;
     display: flex;
-   justify-content: center;
-   height: 6%;
+    justify-content: center;
+    height: 6%;
   }
-  .rightSide{
+  .rightSide {
     text-align: center;
     gap: 2rem;
-  } 
-  .menu{
+  }
+  .menu {
     width: 100%;
     display: flex;
     list-style: none;
@@ -81,62 +81,57 @@
   }
 }
 
-  @media screen and (max-width:450px) {
-    :root{
-      width: 100%;
-    }
-    .navbar{
-        width: 100%;
-        display: flex;
-       justify-content: center;
-       height: 70px;
-       overflow: hidden;
-       position: fixed;
-top:0;
-margin-top: 0%;
-padding-left: 5rem;
-box-sizing: border-box;
-      }
-    .home{
-      display: none;
-    } 
-    .rightSide{
-       display: none;
-    }
-    .toggleNav{
-        width: 100%;
-display: flex;
-align-items: center;
-padding-left: 2rem;
-position: fixed;
-
-    }
-    .menu{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-       margin: 0;
-      position: fixed;
-      background-color: rgb(143,183,209);
-     top:0;
-     
-    }
-    .menu a{
-        float: left;
-        display: block;
-        padding: 10px;
-    
-    }
-    .toggleBtn{
-      
-        border: transparent;
-        background-color: transparent;
+@media screen and (max-width: 450px) {
+  :root {
+    width: 100%;
+  }
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    margin-top: 0%;
+    padding-left: 5rem;
+    box-sizing: border-box;
+  }
+  .home {
+    display: none;
+  }
+  .rightSide {
+    display: none;
+  }
+  .toggleNav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    position: fixed;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    background-color: rgb(143, 183, 209);
+    top: 0;
+  }
+  .menu a {
+    float: left;
+    display: block;
+    padding: 10px;
+  }
+  .toggleBtn {
+    border: transparent;
+    background-color: transparent;
     background-position: center;
     width: 60px;
     height: 60px;
-    background-color:rgb(143,183,209) ;
-        background-image: url(../public/home_icon.png);
-        background-size: cover;
-   
-    }
+    background-color: rgb(143, 183, 209);
+    background-image: url(../public/home_icon.png);
+    background-size: cover;
   }
+}
