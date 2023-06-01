@@ -81,7 +81,6 @@
 top:0;
 margin-top: 0%;
 padding-left: 5rem;
-/* padding-right: 3rem; */
 box-sizing: border-box;
       }
     .home{
@@ -96,7 +95,6 @@ display: flex;
 align-items: center;
 padding-left: 2rem;
 position: fixed;
-/* top:0; */
 
     }
     .menu{
@@ -123,15 +121,8 @@ position: fixed;
     width: 60px;
     height: 60px;
     background-color:rgb(143,183,209) ;
-        background-image: url('./home_icon.png');
+        background-image: url(../public/home_icon.png);
         background-size: cover;
    
     }
-    /* .tNav{
-       
-        top:0;
-        width: 100%;
-    
-    } */
-   
   }

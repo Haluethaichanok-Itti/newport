@@ -221,9 +221,6 @@ const HomePage = () => {
             </a>
           </div>
         </section>
-        {/* <div className="footer"> */}
-        {/* <footer></footer> */}
-        {/* </div> */}
       </main>
       <div className="footers">
         {" "}
