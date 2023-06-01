@@ -82,6 +82,9 @@
 }
 
   @media screen and (max-width:400px) {
+    :root{
+      width: 100%;
+    }
     .navbar{
         width: 100%;
         display: flex;
