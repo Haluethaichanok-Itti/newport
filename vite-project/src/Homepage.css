@@ -388,8 +388,9 @@ justify-content: end;
 } */
 @media screen and (max-width:450px) {
     :root{
+        box-sizing: border-box;
         width: 450px;
-        height: auto;
+        height: 100%;
     }
     #profile{
         width: 100%;
@@ -492,4 +493,5 @@ justify-content: end;
     .list{
         width:95%
 ;    }
+
 }
